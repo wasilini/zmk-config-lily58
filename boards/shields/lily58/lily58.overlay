@@ -1,0 +1,12 @@
+#include <dt-bindings/zmk/matrix.h>
+
+/ {
+    chosen {
+        zmk,kscan = &kscan0;
+    };
+
+    kscan0: kscan {
+        compatible = "zmk,kscan-gpio-matrix";
+        // Здесь будет ваша матрица клавиш (можно оставить пустым для начала)
+    };
+};
